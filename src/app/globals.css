@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Works on Chrome, Edge, and Safari */
+.historyLocale-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.historyLocale-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.historyLocale-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgb(39, 39, 42);
+  border-radius: 2px;
+}
+.historyLocale-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(145, 154, 167, 0.506);
+}
